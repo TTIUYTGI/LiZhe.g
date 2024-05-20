@@ -59,3 +59,15 @@ header_pages:
   - index.md
   - about.md
 
+title: LiZhe's Website
+description: >- # this means to ignore newlines until "baseurl:"
+  Welcome to LiZhe's personal website.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://TTIUYTGI.github.io" # the base hostname & protocol for your site
+github_username: TTIUYTGI
+title: LiZhe's Website
+description: >- # this means to ignore newlines until "baseurl:"
+  Welcome to LiZhe's personal website.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://TTIUYTGI.github.io" # the base hostname & protocol for your site
+github_username: TTIUYTGI
