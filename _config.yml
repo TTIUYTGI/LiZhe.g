@@ -55,3 +55,7 @@ plugins:
 #   - vendor/ruby/
 url: "https://LiZhe.github.io"
 baseurl: ""
+header_pages:
+  - index.md
+  - about.md
+
