@@ -1,0 +1,30 @@
+mkdir -p layouts/_default
+touch layouts/_default/single.html
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="{{ "css/styles.css" | relURL }}">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="{{ "/" | relLangURL }}">首页</a></li>
+                <li><a href="{{ "/about/" | relLangURL }}">关于我</a></li>
+                <li><a href="{{ "/projects/" | relLangURL }}">项目</a></li>
+                <li><a href="{{ "/honors/" | relLangURL }}">荣誉奖励</a></li>
+                <li><a href="{{ "/contact/" | relLangURL }}">联系我</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {{ .Content }}
+    </main>
+    <footer>
+        <p>© 2025 李喆. 版权所有.</p>
+    </footer>
+</body>
+</html>
